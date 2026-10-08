@@ -27,7 +27,7 @@ def fit_lanes(lines, shape, p=PARAMS):
     """Split segments by slope sign, length-weighted average, return ((x1,y1,x2,y2) left, right) or None per side + (slope,intercept)."""
     h, w = shape[:2]
     L, R, Lw, Rw = [], [], [], []
-    if lines is None:
+    if lines is None or len(lines) == 0:   # newer OpenCV returns () when nothing is found
         return None, None, None, None
     for x1, y1, x2, y2 in lines[:, 0]:
         if x2 == x1:
