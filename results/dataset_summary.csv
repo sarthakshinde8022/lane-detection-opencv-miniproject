@@ -1,0 +1,10 @@
+name,type,width,height,frames,mean_brightness,contrast_std
+solidWhiteCurve.jpg,image,960,540,1,131.2,41.7
+solidWhiteRight.jpg,image,960,540,1,130.1,43.8
+solidYellowCurve.jpg,image,960,540,1,129.1,34.0
+solidYellowCurve2.jpg,image,960,540,1,134.7,33.3
+solidYellowLeft.jpg,image,960,540,1,130.4,35.0
+whiteCarLaneSwitch.jpg,image,960,540,1,135.5,31.9
+challenge.mp4,video,1280,720,251,112.2,47.7
+solidWhiteRight.mp4,video,960,540,221,124.7,44.4
+solidYellowLeft.mp4,video,960,540,681,128.3,34.5

@@ -1,0 +1,7 @@
+video,mode,frames,both_lanes_pct,jitter_px,fps
+challenge.mp4,raw,251,98.8,27.67,36.5
+challenge.mp4,smoothed,251,98.8,6.6,36.9
+solidWhiteRight.mp4,raw,221,100.0,4.34,82.5
+solidWhiteRight.mp4,smoothed,221,100.0,0.9,83.7
+solidYellowLeft.mp4,raw,681,100.0,5.29,84.2
+solidYellowLeft.mp4,smoothed,681,100.0,0.98,81.0
