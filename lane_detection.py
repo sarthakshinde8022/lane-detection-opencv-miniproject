@@ -29,7 +29,7 @@ def fit_lanes(lines, shape, p=PARAMS):
     L, R, Lw, Rw = [], [], [], []
     if lines is None or len(lines) == 0:   # newer OpenCV returns () when nothing is found
         return None, None, None, None
-    for x1, y1, x2, y2 in lines[:, 0]:
+    for x1, y1, x2, y2 in np.asarray(lines).reshape(-1, 4):
         if x2 == x1:
             continue
         m = (y2 - y1) / (x2 - x1)
