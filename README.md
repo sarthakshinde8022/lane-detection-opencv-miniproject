@@ -2,7 +2,7 @@
 
 AI Mini Project - provisional/draft. Detects left/right lane lines in road images and video with a classical OpenCV pipeline, plus temporal smoothing for stable video output.
 
-**Team:** [Student 1] - [Student 2] - [Student 3]
+**Team:** Sarthak Shinde - Pranav Keswad - Noel Vinod
 
 ![Pipeline stages](results/pipeline_stages.png)
 
@@ -39,6 +39,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 Upload an image or video (or use the bundled samples), tune the pipeline with sliders, view each stage, and download results. To deploy free: push to GitHub, then create an app at share.streamlit.io pointing to `app.py`.
+Live demo: https://lane-detection-opencv-miniproject-hrdxdkuu5cvhuweyu6pjvd.streamlit.app/
 
 ## Roadmap
 TuSimple labelled evaluation -> curved lanes (perspective transform + polynomial fit) -> shadow robustness (HLS, CLAHE) -> U-Net comparison.
